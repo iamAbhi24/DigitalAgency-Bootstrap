@@ -1,14 +1,85 @@
+/* navigation bar */
 *{
     margin:0;
-    padding:0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 #navbar{
     
     background-color: purple;
     top: 0;
     position: sticky;
-    padding-bottom: 80vh;
 }
 #navbar a{
     color: white;
+}
+
+/* bannner */
+#banner{
+    padding-top: 5%;
+    background-color: purple;
+}
+#banner .col-md-6{
+    margin-top: 5%;
+    color: white;
+}
+.bottom-img{
+    width: 100%;
+}
+
+
+/* service */
+#servicebtn{
+    border-radius: 20px;
+    background-color: purple;
+    border-color: purple;
+}
+
+/* About us */
+#about{
+    margin-top: 100px;
+}
+
+
+/* testimonials */
+#testimonials{
+    margin-top: 10%;
+    margin-left:20%;
+}
+
+
+/* contact */
+
+#contact{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.container,.row{
+    margin-top:1%;
+}
+
+
+/* footer */
+footer{
+    background-color: purple;
+    color: white;
+    font-size:1em;
+}
+#Subscribe{
+    background-color: rgba(120, 11, 120, 0.595);
+    border: 1px solid rgb(65, 5, 65);
+    display: block;
+    margin-top: 8px;
+    color: white;
+    box-shadow: none;
+}
+hr{
+    background-color: white;
+}
+
+.copyright{
+    padding-bottom: 20px;
+    text-align: center;
 }
